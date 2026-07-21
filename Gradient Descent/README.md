@@ -155,7 +155,7 @@ $$
 ### Z-score normalization
 
 $$
-x_j = \frac{x_j - \mu_j}{max - min}
+x_{\text{scaled}} = \frac{x - \mu}{\sigma}
 $$
 
 A z-score normalization utilizes the standard deviation $\sigma$ of each feature. In general terms, a standard deviation is also referred to as a normal distribution or gaussian distribution (bell-shape curve). 
